@@ -1,3 +1,5 @@
+# Task 2
+
 a = ARGV[0].split('')
 b = ARGV[1].split('')
 a.each_index do |index_A|

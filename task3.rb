@@ -1,3 +1,5 @@
+# Task 3
+
 a = ARGV[0].to_i
 b = ARGV[1].to_i
 def nod(mi,ma)
