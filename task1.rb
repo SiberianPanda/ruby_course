@@ -1,7 +1,2 @@
-# Task 1
-
-template = /(Р|К|Н|р|к|н)/
-ARGV.each_index {|index|
-    ARGV[index] = ARGV[index].gsub(template){''}
-}
+ARGV.each_index {|index| ARGV[index] = ARGV[index].gsub(/(Р|К|Н|р|к|н)/){''}}
 puts(ARGV.join(' '))
